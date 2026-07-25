@@ -9,6 +9,7 @@ Every model this org produces is a TypeScript factory function you can read, dif
 
 [![img2threejs stars](https://img.shields.io/github/stars/img2threejs/img2threejs?style=flat&label=img2threejs&color=8b5cff)](https://github.com/img2threejs/img2threejs)
 [![showcase stars](https://img.shields.io/github/stars/img2threejs/img2threejs-showcase?style=flat&label=showcase&color=38e8ff)](https://github.com/img2threejs/img2threejs-showcase)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/8DS8RTyuR)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/img2threejs/img2threejs/blob/main/LICENSE)
 
 ### [→ Open the live demo gallery](https://img2threejs-showcase.pages.dev/)
@@ -74,6 +75,18 @@ Start with [CONTRIBUTING.md](https://github.com/img2threejs/img2threejs/blob/mai
 [roadmap](https://github.com/img2threejs/img2threejs/blob/main/ROADMAP.md), or open a
 [**Submit a showcase demo**](https://github.com/img2threejs/img2threejs-showcase/issues/new/choose) issue to
 get feedback on scope before doing the work.
+
+## Community
+
+Got stuck on a stage, want feedback on a spec before the model burns tokens, or just want to share
+what you rebuilt? The Discord is where the work happens between releases.
+
+[![Discord](https://img.shields.io/badge/Join%20the%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8DS8RTyuR)
+
+- **Showcase feedback** before you open a PR
+- **Spec & gate** questions when the pipeline rejects something you thought should pass
+- **Roadmap proposals** for what should ship in v1.6, v1.7, …
+- **Reconstruction cook-alongs** — bring an image, the room watches the gate light up
 
 ## Brand
 

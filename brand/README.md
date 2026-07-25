@@ -12,7 +12,7 @@ glint on the top face is the specular highlight every reconstruction has to earn
 | `logo-mark.svg` / `logo-mark.png` | 374 × 346, transparent | READMEs, docs, slides. Trimmed to the artwork with 12px padding, so `width="112"` renders at full size. |
 | `banner.svg` / `banner.png` | 1280 × 360 | README headers, social preview, talk slides. |
 | `mascot-glim.svg` / `mascot-glim-1200.png` | 1200 × 1200, transparent | Full-body mascot art, stickers, community announcements, talks. |
-| `discord-avatar-glim.svg` / `discord-avatar-glim-1024.png` / `discord-avatar-glim-512.png` | square, full-bleed | Discord community avatar and social community profiles. Safe for a circular crop. |
+| `discord-avatar-glim.svg` / `discord-avatar-glim-1024.png` / `discord-avatar-glim-512.png` | square, full-bleed | Discord community avatar and social community profiles. Safe for a circular crop. Used in the [img2threejs Discord](https://discord.gg/8DS8RTyuR). |
 
 SVG is the source of truth; the PNGs are rendered from it.
 
@@ -53,6 +53,15 @@ asset or redraw Glim without the three source pixels, visual-gate lens and glint
 - **Do** use the transparent mark on light backgrounds and the badge version anywhere the background is busy.
 - **Don't** recolour the faces, rotate the cube, add an outer stroke, or pre-round the avatar corners.
 - **Don't** scale the badge below 24px — use the mark alone at small sizes.
+
+## Community
+
+The img2threejs Discord uses `discord-avatar-glim` as the server icon and the
+banner colour stops from the Palette table. Want to suggest a brand change
+(new mascot pose, alternate banner crop, a sticker set)?
+
+**[Join the Discord →](https://discord.gg/8DS8RTyuR)** and post in the
+`#brand` channel — proposals with side-by-side mockups get reviewed first.
 
 ## Regenerating the PNGs
 
