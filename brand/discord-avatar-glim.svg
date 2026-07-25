@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="title desc">
+  <title id="title">Glim — img2threejs Discord community avatar</title>
+  <desc id="desc">A circular-crop-safe close portrait of Glim, the img2threejs procedural forge sprite.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1244"/>
+      <stop offset="0.52" stop-color="#120e2e"/>
+      <stop offset="1" stop-color="#0a0918"/>
+    </linearGradient>
+    <radialGradient id="glow-cyan" cx="78%" cy="18%" r="72%">
+      <stop offset="0" stop-color="#38e8ff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#38e8ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-violet" cx="18%" cy="84%" r="76%">
+      <stop offset="0" stop-color="#8b5cff" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#8b5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cff"/>
+      <stop offset="1" stop-color="#38e8ff"/>
+    </linearGradient>
+    <linearGradient id="left" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2bd4c8"/>
+      <stop offset="1" stop-color="#118a9c"/>
+    </linearGradient>
+    <linearGradient id="right" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a3cf0"/>
+      <stop offset="1" stop-color="#2a1a7a"/>
+    </linearGradient>
+    <linearGradient id="pixel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd76a"/>
+      <stop offset="1" stop-color="#ff8bd0"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cff" stop-opacity="0"/>
+      <stop offset="0.24" stop-color="#8b5cff" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#38e8ff"/>
+      <stop offset="0.82" stop-color="#2bd4c8" stop-opacity="0.88"/>
+      <stop offset="1" stop-color="#2bd4c8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="lens" cx="36%" cy="30%" r="72%">
+      <stop offset="0" stop-color="#f4faff"/>
+      <stop offset="0.2" stop-color="#baf7ff"/>
+      <stop offset="0.52" stop-color="#38e8ff"/>
+      <stop offset="1" stop-color="#12657d"/>
+    </radialGradient>
+    <filter id="blur-30" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="lens-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="pixel-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Full-bleed square; Discord supplies the circular mask. -->
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect width="1024" height="1024" fill="url(#glow-cyan)"/>
+  <rect width="1024" height="1024" fill="url(#glow-violet)"/>
+  <circle cx="512" cy="508" r="398" fill="none" stroke="#f4faff" stroke-width="2" opacity="0.09"/>
+  <circle cx="512" cy="508" r="362" fill="#38e8ff" opacity="0.035" filter="url(#blur-30)"/>
+
+  <!-- Source pixels remain inside a 76% safe circle so they survive Discord cropping. -->
+  <g filter="url(#pixel-glow)">
+    <rect x="114" y="596" width="72" height="72" rx="17" fill="url(#pixel)" opacity="0.36" transform="rotate(-8 150 632)"/>
+    <rect x="139" y="697" width="84" height="84" rx="19" fill="url(#pixel)" opacity="0.64" transform="rotate(5 181 739)"/>
+    <rect x="229" y="756" width="94" height="94" rx="22" fill="url(#pixel)" opacity="0.96" transform="rotate(-3 276 803)"/>
+  </g>
+
+  <!-- The scan ring turns the square portrait into a compact materialisation moment. -->
+  <ellipse cx="530" cy="760" rx="352" ry="102" fill="none" stroke="url(#scan)" stroke-width="10" opacity="0.9"/>
+  <ellipse cx="530" cy="760" rx="291" ry="78" fill="none" stroke="#38e8ff" stroke-width="2" opacity="0.22"/>
+
+  <!-- Glim's cube portrait. Exact logo geometry and colour relationships are retained. -->
+  <g transform="translate(2 8)">
+    <ellipse cx="546" cy="842" rx="274" ry="46" fill="#05040d" opacity="0.48" filter="url(#blur-30)"/>
+    <polygon points="524,142 858,314 524,486 190,314" fill="url(#top)"/>
+    <polygon points="190,314 524,486 524,864 190,692" fill="url(#left)"/>
+    <polygon points="858,314 524,486 524,864 858,692" fill="url(#right)"/>
+    <path d="M190 314 L524 142 L858 314" fill="none" stroke="#f4faff" stroke-opacity="0.38" stroke-width="11" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M524 486 L524 864" fill="none" stroke="#0b0a1f" stroke-opacity="0.31" stroke-width="11" stroke-linecap="round"/>
+
+    <!-- The earned glint remains the highest-contrast detail after downscaling. -->
+    <path d="M500 183 L524 243 L584 267 L524 291 L500 351 L476 291 L416 267 L476 243 Z" fill="#f4faff" opacity="0.97"/>
+
+    <!-- Divine Eye with a simple smiling lower arc for a community-friendly expression. -->
+    <g transform="rotate(-4 678 546)">
+      <ellipse cx="680" cy="548" rx="144" ry="122" fill="#0a0918" opacity="0.88"/>
+      <ellipse cx="680" cy="548" rx="119" ry="99" fill="none" stroke="#9b80ff" stroke-width="18" opacity="0.8"/>
+      <ellipse cx="680" cy="548" rx="84" ry="76" fill="url(#lens)" filter="url(#lens-glow)"/>
+      <ellipse cx="647" cy="516" rx="23" ry="19" fill="#f4faff" opacity="0.98"/>
+      <path d="M599 650 Q681 697 762 636" fill="none" stroke="#f4faff" stroke-width="15" stroke-linecap="round" opacity="0.9"/>
+    </g>
+
+    <!-- Two tiny status pixels hint that the other face is alive without adding text. -->
+    <circle cx="362" cy="559" r="18" fill="#ffd76a"/>
+    <circle cx="409" cy="585" r="12" fill="#ff8bd0"/>
+  </g>
+</svg>

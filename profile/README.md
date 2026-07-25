@@ -7,11 +7,11 @@
 Reconstruction *by code* — not photogrammetry, not mesh extraction, not downloaded art packs.
 Every model this org produces is a TypeScript factory function you can read, diff, and animate.
 
-[![img2threejs stars](https://img.shields.io/github/stars/hoainho/img2threejs?style=flat&label=img2threejs&color=8b5cff)](https://github.com/hoainho/img2threejs)
-[![showcase stars](https://img.shields.io/github/stars/hoainho/img2threejs-showcase?style=flat&label=showcase&color=38e8ff)](https://github.com/hoainho/img2threejs-showcase)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/hoainho/img2threejs/blob/main/LICENSE)
+[![img2threejs stars](https://img.shields.io/github/stars/img2threejs/img2threejs?style=flat&label=img2threejs&color=8b5cff)](https://github.com/img2threejs/img2threejs)
+[![showcase stars](https://img.shields.io/github/stars/img2threejs/img2threejs-showcase?style=flat&label=showcase&color=38e8ff)](https://github.com/img2threejs/img2threejs-showcase)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/img2threejs/img2threejs/blob/main/LICENSE)
 
-### [→ Open the live demo gallery](https://hoainho.github.io/img2threejs-showcase/)
+### [→ Open the live demo gallery](https://img2threejs-showcase.pages.dev/)
 
 </div>
 
@@ -21,8 +21,8 @@ Every model this org produces is a TypeScript factory function you can read, dif
 
 | Project | What it is |
 | --- | --- |
-| **[img2threejs](https://github.com/hoainho/img2threejs)** | The agent skill itself — a staged, quality-gated sculpting pipeline that turns one reference image into a procedural `THREE.Group` factory. Runs under Claude Code, Codex, or OpenCode. Python 3.10+ stdlib only, zero dependencies. |
-| **[img2threejs-showcase](https://github.com/hoainho/img2threejs-showcase)** | The live gallery — every demo is generated code running in your browser. Orbit any model and read the source it was rebuilt from. Contributions welcome via PR. |
+| **[img2threejs](https://github.com/img2threejs/img2threejs)** | The agent skill itself — a staged, quality-gated sculpting pipeline that turns one reference image into a procedural `THREE.Group` factory. Runs under Claude Code, Codex, or OpenCode. Python 3.10+ stdlib only, zero dependencies. |
+| **[img2threejs-showcase](https://github.com/img2threejs/img2threejs-showcase)** | The live gallery — every demo is generated code running in your browser. Orbit any model and read the source it was rebuilt from. Contributions welcome via PR. |
 
 ## What makes it different
 
@@ -38,24 +38,24 @@ One theme per release, so there's always a single answer to "what is this versio
 
 | Version | Theme | What it unlocks |
 | --- | --- | --- |
-| **v1.4** | 🔫 The Weapon Update · *shipping soon* | 1:1 photorealistic hard-surface assets — strict PBR + texture projection, mechanical reasoning, metal/polymer/wood |
-| **v1.5** | 👤 The Character Update · *in progress* | Character reconstruction, facial features, rigging-ready topology, blendshape prep |
-| **v1.6** | 🌍 The Environment Update | Buildings, rooms, streets, vegetation, terrain-aware and multi-object reconstruction |
-| **v1.7** | 🎮 The Game Pipeline Update | Unity / Unreal exporters, Blender bridge, LOD + collision meshes |
-| **v1.8** | 🎬 The Animation Update | Auto rigging, skin weights, Mixamo compatibility, facial rig |
-| **v1.9** | 🤖 The AI Studio Update | Web UI, batch processing, visual prompt builder, cloud rendering |
-| **v2.0** | 🚀 The Procedural World Update | Multi-view reconstruction, procedural cities, semantic world understanding, plugin API |
+| **v1.4** | The Weapon Update · *shipping soon* | 1:1 photorealistic hard-surface assets — strict PBR + texture projection, mechanical reasoning, metal/polymer/wood |
+| **v1.5** | The Character Update · *in progress* | Character reconstruction, facial features, rigging-ready topology, blendshape prep |
+| **v1.6** | The Environment Update | Buildings, rooms, streets, vegetation, terrain-aware and multi-object reconstruction |
+| **v1.7** | The Game Pipeline Update | Unity / Unreal exporters, Blender bridge, LOD + collision meshes |
+| **v1.8** | The Animation Update | Auto rigging, skin weights, Mixamo compatibility, facial rig |
+| **v1.9** | The AI Studio Update | Web UI, batch processing, visual prompt builder, cloud rendering |
+| **v2.0** | The Procedural World Update | Multi-view reconstruction, procedural cities, semantic world understanding, plugin API |
 
 **The arc:** assets (v1.4–v1.5) → worlds (v1.6–v1.7) → production, rigging and engine exporters
 (v1.8–v1.9) → an AI game-asset platform that generates playable worlds from reference images (v2.0).
 
-Full breakdown: [ROADMAP.md](https://github.com/hoainho/img2threejs/blob/main/ROADMAP.md) ·
+Full breakdown: [ROADMAP.md](https://github.com/img2threejs/img2threejs/blob/main/ROADMAP.md) ·
 [roadmap on the site](https://img2threejs-showcase.pages.dev/#/roadmap)
 
 ## Try it in two commands
 
 ```bash
-git clone https://github.com/hoainho/img2threejs.git ~/.claude/skills/img2threejs
+git clone https://github.com/img2threejs/img2threejs.git ~/.claude/skills/img2threejs
 ```
 
 Then, in your agent, point at an image:
@@ -70,9 +70,9 @@ shows you a reference-beside-render sheet at each step until it matches.
 ## Contributing
 
 New procedural material recipes, gates, host coverage, and showcase demos are all welcome.
-Start with [CONTRIBUTING.md](https://github.com/hoainho/img2threejs/blob/main/CONTRIBUTING.md) and the
-[roadmap](https://github.com/hoainho/img2threejs/blob/main/ROADMAP.md), or open a
-[**Submit a showcase demo**](https://github.com/hoainho/img2threejs-showcase/issues/new/choose) issue to
+Start with [CONTRIBUTING.md](https://github.com/img2threejs/img2threejs/blob/main/CONTRIBUTING.md) and the
+[roadmap](https://github.com/img2threejs/img2threejs/blob/main/ROADMAP.md), or open a
+[**Submit a showcase demo**](https://github.com/img2threejs/img2threejs-showcase/issues/new/choose) issue to
 get feedback on scope before doing the work.
 
 ## Brand

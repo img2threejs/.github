@@ -11,8 +11,29 @@ glint on the top face is the specular highlight every reconstruction has to earn
 | `logo-avatar.svg` / `logo-avatar-1024.png` / `logo-avatar-512.png` | square, full-bleed | GitHub org avatar, app icons, social profiles. Corners are **not** pre-rounded — GitHub applies its own rounding. |
 | `logo-mark.svg` / `logo-mark.png` | 374 × 346, transparent | READMEs, docs, slides. Trimmed to the artwork with 12px padding, so `width="112"` renders at full size. |
 | `banner.svg` / `banner.png` | 1280 × 360 | README headers, social preview, talk slides. |
+| `mascot-glim.svg` / `mascot-glim-1200.png` | 1200 × 1200, transparent | Full-body mascot art, stickers, community announcements, talks. |
+| `discord-avatar-glim.svg` / `discord-avatar-glim-1024.png` / `discord-avatar-glim-512.png` | square, full-bleed | Discord community avatar and social community profiles. Safe for a circular crop. |
 
 SVG is the source of truth; the PNGs are rendered from it.
+
+## Mascot: Glim
+
+**Glim** is the procedural forge sprite that turns a reference image into an
+animation-ready object. The mascot is intentionally constructed from the same
+systems the project promises rather than borrowing a generic robot or animal:
+
+- the unchanged isometric cube is Glim's core — the code-built 3D result;
+- the three warm pixels are the source image entering the pipeline;
+- the cyan lens is the visual quality gate (the "Divine Eye"), not a magic AI eye;
+- the scan ring is the gallery's materialisation hand-off from photo to live model;
+- separate arm, leg, elbow, knee and hand forms make the character read as
+  animation-ready by construction;
+- the top-face glint remains the highlight every reconstruction has to earn.
+
+Use the full-body art when the silhouette has room to breathe. Use the Discord
+portrait below 160px: it removes the limbs, enlarges the lens and keeps every
+important feature within Discord's circular crop. Do not place text over either
+asset or redraw Glim without the three source pixels, visual-gate lens and glint.
 
 ## Palette
 
