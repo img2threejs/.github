@@ -32,6 +32,26 @@ Every model this org produces is a TypeScript factory function you can read, dif
 - **Token-efficient on purpose.** Deterministic Python scripts do validation, gating, spec authoring, and comparison-sheet packaging. Model tokens are spent only on visual judgment and code.
 - **Honest about limits.** One image cannot reveal hidden sides. The pipeline reports per-region confidence and says so plainly instead of faking fidelity.
 
+## Where this is going
+
+One theme per release, so there's always a single answer to "what is this version about".
+
+| Version | Theme | What it unlocks |
+| --- | --- | --- |
+| **v1.4** | 🔫 The Weapon Update · *shipping soon* | 1:1 photorealistic hard-surface assets — strict PBR + texture projection, mechanical reasoning, metal/polymer/wood |
+| **v1.5** | 👤 The Character Update · *in progress* | Character reconstruction, facial features, rigging-ready topology, blendshape prep |
+| **v1.6** | 🌍 The Environment Update | Buildings, rooms, streets, vegetation, terrain-aware and multi-object reconstruction |
+| **v1.7** | 🎮 The Game Pipeline Update | Unity / Unreal exporters, Blender bridge, LOD + collision meshes |
+| **v1.8** | 🎬 The Animation Update | Auto rigging, skin weights, Mixamo compatibility, facial rig |
+| **v1.9** | 🤖 The AI Studio Update | Web UI, batch processing, visual prompt builder, cloud rendering |
+| **v2.0** | 🚀 The Procedural World Update | Multi-view reconstruction, procedural cities, semantic world understanding, plugin API |
+
+**The arc:** assets (v1.4–v1.5) → worlds (v1.6–v1.7) → production, rigging and engine exporters
+(v1.8–v1.9) → an AI game-asset platform that generates playable worlds from reference images (v2.0).
+
+Full breakdown: [ROADMAP.md](https://github.com/hoainho/img2threejs/blob/main/ROADMAP.md) ·
+[roadmap on the site](https://img2threejs-showcase.pages.dev/#/roadmap)
+
 ## Try it in two commands
 
 ```bash
