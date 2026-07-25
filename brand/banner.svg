@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 360" width="1280" height="360" role="img" aria-label="img2threejs — one reference image to a code-only, animation-ready Three.js model">
+  <title>img2threejs</title>
+  <defs>
+    <linearGradient id="b-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161038"/>
+      <stop offset="0.55" stop-color="#110d2b"/>
+      <stop offset="1" stop-color="#0a0918"/>
+    </linearGradient>
+    <radialGradient id="b-glow-cyan" cx="0.72" cy="0.05" r="0.75">
+      <stop offset="0" stop-color="#38e8ff" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#38e8ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b-glow-violet" cx="0.12" cy="0.95" r="0.75">
+      <stop offset="0" stop-color="#8b5cff" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#8b5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cff"/>
+      <stop offset="0.5" stop-color="#38e8ff"/>
+      <stop offset="1" stop-color="#38e8ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="b-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cff"/>
+      <stop offset="1" stop-color="#38e8ff"/>
+    </linearGradient>
+    <linearGradient id="b-left" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2bd4c8"/>
+      <stop offset="1" stop-color="#118a9c"/>
+    </linearGradient>
+    <linearGradient id="b-right" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6a3cf0"/>
+      <stop offset="1" stop-color="#2a1a7a"/>
+    </linearGradient>
+    <linearGradient id="b-pix" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd76a"/>
+      <stop offset="1" stop-color="#ff8bd0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#b-bg)"/>
+  <rect width="1280" height="360" fill="url(#b-glow-cyan)"/>
+  <rect width="1280" height="360" fill="url(#b-glow-violet)"/>
+
+  <!-- mark: 512-space geometry (bbox 48,110 -> 398,432) scaled to 200px tall, left-aligned -->
+  <g transform="translate(64,80) scale(0.621) translate(-48,-110)">
+    <rect x="48" y="320" width="48" height="48" rx="11" fill="url(#b-pix)" opacity="0.38"/>
+    <rect x="48" y="384" width="48" height="48" rx="11" fill="url(#b-pix)" opacity="0.62"/>
+    <rect x="112" y="384" width="48" height="48" rx="11" fill="url(#b-pix)" opacity="0.88"/>
+
+    <polygon points="256,110 398,181 256,252 114,181" fill="url(#b-top)"/>
+    <polygon points="114,181 256,252 256,402 114,331" fill="url(#b-left)"/>
+    <polygon points="398,181 256,252 256,402 398,331" fill="url(#b-right)"/>
+
+    <path d="M114,181 L256,110 L398,181" fill="none" stroke="#ffffff" stroke-opacity="0.34" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M256,252 L256,402" fill="none" stroke="#0b0a1f" stroke-opacity="0.22" stroke-width="5" stroke-linecap="round"/>
+    <path d="M248,127 L256,147 L276,155 L256,163 L248,183 L240,163 L220,155 L240,147 Z" fill="#f4faff" opacity="0.94"/>
+  </g>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+    <text x="360" y="168" font-size="78" font-weight="700" letter-spacing="-2" fill="#ffffff">img2threejs</text>
+    <rect x="362" y="188" width="300" height="4" rx="2" fill="url(#b-rule)"/>
+    <text x="360" y="240" font-size="25" font-weight="400" fill="#aab4d4">One reference image &#8594; a code-only, animation-ready Three.js model.</text>
+
+    <g font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, monospace" font-size="15">
+      <rect x="360" y="268" width="124" height="34" rx="17" fill="#ffffff" fill-opacity="0.07" stroke="#8b5cff" stroke-opacity="0.45"/>
+      <text x="422" y="290" fill="#c9b8ff" text-anchor="middle">procedural</text>
+
+      <rect x="496" y="268" width="150" height="34" rx="17" fill="#ffffff" fill-opacity="0.07" stroke="#2bd4c8" stroke-opacity="0.45"/>
+      <text x="571" y="290" fill="#9fe8e2" text-anchor="middle">quality-gated</text>
+
+      <rect x="658" y="268" width="168" height="34" rx="17" fill="#ffffff" fill-opacity="0.07" stroke="#38e8ff" stroke-opacity="0.40"/>
+      <text x="742" y="290" fill="#a8dcf5" text-anchor="middle">token-efficient</text>
+    </g>
+  </g>
+</svg>
