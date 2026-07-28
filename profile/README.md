@@ -10,6 +10,7 @@ Every model this org produces is a TypeScript factory function you can read, dif
 [![img2threejs stars](https://img.shields.io/github/stars/img2threejs/img2threejs?style=flat&label=img2threejs&color=8b5cff)](https://github.com/img2threejs/img2threejs)
 [![showcase stars](https://img.shields.io/github/stars/img2threejs/img2threejs-showcase?style=flat&label=showcase&color=38e8ff)](https://github.com/img2threejs/img2threejs-showcase)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/img2threejs/img2threejs/blob/main/LICENSE)
+[![Sponsor](https://img.shields.io/badge/Sponsor-Buy%20Me%20A%20Coffee-FFDD00.svg?logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/hoainhowors)
 
 ### [→ Open the live demo gallery](https://img2threejs-showcase.pages.dev/)
 
@@ -74,6 +75,11 @@ Start with [CONTRIBUTING.md](https://github.com/img2threejs/img2threejs/blob/mai
 [roadmap](https://github.com/img2threejs/img2threejs/blob/main/ROADMAP.md), or open a
 [**Submit a showcase demo**](https://github.com/img2threejs/img2threejs-showcase/issues/new/choose) issue to
 get feedback on scope before doing the work.
+
+## Support
+
+img2threejs is free and open source. If it saved you time, a coffee helps keep it going:
+[Buy Me a Coffee](https://www.buymeacoffee.com/hoainhowors).
 
 ## Brand
 
