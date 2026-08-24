@@ -12,7 +12,7 @@ Every model this org produces is a TypeScript factory function you can read, dif
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://github.com/img2threejs/img2threejs/blob/main/LICENSE)
 [![Sponsor](https://img.shields.io/badge/Sponsor-Buy%20Me%20A%20Coffee-FFDD00.svg?logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/hoainhowors)
 
-### [→ Open the live demo gallery](https://img2threejs-showcase.pages.dev/)
+### [→ Open the live demo gallery](https://img2threejs.io/)
 
 </div>
 
@@ -51,7 +51,7 @@ One theme per release, so there's always a single answer to "what is this versio
 (v1.8–v1.9) → an AI game-asset platform that generates playable worlds from reference images (v2.0).
 
 Full breakdown: [ROADMAP.md](https://github.com/img2threejs/img2threejs/blob/main/ROADMAP.md) ·
-[roadmap on the site](https://img2threejs-showcase.pages.dev/#/roadmap)
+[roadmap on the site](https://img2threejs.io/#/roadmap)
 
 ## Try it in two commands
 
